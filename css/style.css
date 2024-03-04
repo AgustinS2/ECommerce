@@ -18,6 +18,37 @@ body{
 
 }
 
+header {
+    height: 10vh;
+}
+
+
+.mt-xxl {
+    margin-top: 7rem;
+}
+
+.featured-products-container > h2 {
+    text-align: center;
+}
+ 
+main {
+    width: 76vw;
+    margin: auto;
+}
+
+.left {
+    width: 37vw;
+}
+
+.right {
+    width: 37vw;
+}
+
+.right > img {
+    width: 34rem;
+}
+
+
 .up-nav {
     position: fixed;
     background-color: white;
@@ -53,17 +84,9 @@ nav > ul {
 }
 
 
-h2 {
-    text-align: center;
-    padding: 2rem;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 90vw;
-    margin-left: 10rem;
+.title {
+    text-align: start;
+    margin-bottom: 1rem;
 }
 
 .featured-box{
@@ -102,5 +125,59 @@ h2 {
     border: 4px solid #000000;
     border-radius: 5px;
     display: inline-block;
+}
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-explorer {
+    margin-top: 2rem;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+}
+
+.card-explorer > img {
+    height: 8rem;
+}
+
+.card-customer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card-customer-data > img {
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.card-customer-description {
+    margin-top: 1.2rem;
+}
+
+.card-customer-data {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.newsletter > h2{
+    text-align: center;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > p {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
 }
